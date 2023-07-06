@@ -101,11 +101,11 @@ main{
     display: block;
     margin: 10px auto;
     width: 40%;
-    padding: 15px 0;
+    padding: 10px;
     background-color: rgb(35, 187, 35);
     color: black;
     border-color: transparent;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
