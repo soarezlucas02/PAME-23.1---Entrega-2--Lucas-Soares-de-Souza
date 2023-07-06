@@ -109,3 +109,6 @@ main{
     cursor: pointer;
 }
 
+.naoTemConta{
+    display: inline-block;
+}
