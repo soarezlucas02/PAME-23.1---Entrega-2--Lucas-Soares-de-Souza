@@ -44,7 +44,7 @@ main{
     background-position: center;
     background-size: cover;
     height: 93vh;
-    /*filter: brightness(30%);*/
+    filter: brightness(30%);
     
 }
 
