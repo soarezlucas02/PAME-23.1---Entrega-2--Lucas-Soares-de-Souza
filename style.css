@@ -44,7 +44,7 @@ main{
     background-position: center;
     background-size: cover;
     height: 93vh;
-    filter: brightness(30%);
+    /*filter: brightness(30%);*/
     
 }
 
@@ -91,5 +91,21 @@ main{
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 3px;
+}
+
+.checkbox{
+    margin: 10px;
+}
+
+.entrar{
+    display: block;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(35, 187, 35);
+    color: black;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
