@@ -111,5 +111,14 @@ main{
 }
 
 .naoTemConta{
+    color: gray;
     display: inline-block;
+}
+
+.inscreva-se{
+    color: white;
+}
+
+.inscrever{
+    margin-top: 7vh;
 }
