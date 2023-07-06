@@ -91,6 +91,7 @@ main{
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 3px;
+    color: white;
 }
 
 .checkbox{

@@ -8,6 +8,11 @@
 
 </head>
 <body>
+    <script>
+        function aviso(){
+            alert("Login Efetuado!")
+        }
+    </script>
     <header>
         <div class="logo__spotfluxo">
             <img class="imagem_spotfluxo" src="./assets/Spotify-Icon.png" alt="">
@@ -20,9 +25,9 @@
             <h1>Entrar no Spotfluxo</h1>
 
             <ul>
-                <li><a class="botao__continuar" href="">Continuar com o Google</a></li>
-                <li><a class="botao__continuar" href="">Continuar com o Facebook</a></li>
-                <li><a class="botao__continuar" href="">Continuar com a Apple</a></li>
+                <li><a class="botao__continuar" target="_blank" href="https://www.google.com/">Continuar com o Google</a></li>
+                <li><a class="botao__continuar" target="_blank" href="https://www.facebook.com/">Continuar com o Facebook</a></li>
+                <li><a class="botao__continuar" target="_blank" href="https://www.apple.com/br/">Continuar com a Apple</a></li>
                 <li><a class="botao__continuar" href="">Continuar com um número de telefone</a></li>
             </ul>
 
@@ -36,13 +41,13 @@
 
                 <label><input type="checkbox" class="checkbox" checked>Lembrar de mim</label>
             
-                <button class="entrar">Entrar</button>
+                <button onclick="aviso()" class="entrar">Entrar</button>
 
             </div>
 
             <div class="inscrever">
                 <p class="naoTemConta">Não tem uma conta?</p>
-                <a class="inscreva-se" href="https://fluxoconsultoria.poli.ufrj.br/">Inscreva-se no Spotfluxo</a>
+                <a class="inscreva-se" target="_blank" href="https://fluxoconsultoria.poli.ufrj.br/">Inscreva-se no Spotfluxo</a>
             </div>
 
         </div>
