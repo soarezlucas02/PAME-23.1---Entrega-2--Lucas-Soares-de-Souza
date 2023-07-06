@@ -1,0 +1,95 @@
+*{
+margin:0;
+padding: 0;
+}
+
+:root{
+    --fonte-principal: 'Gotham'
+
+}
+
+body{
+    color: white;
+    
+
+}
+
+header{
+    height: 7vh;
+    background-color: black;
+
+}
+
+.logo__spotfluxo{
+    display: flex;
+    align-items: center;
+    padding: 2vh;
+}
+
+.imagem_spotfluxo{
+    height: 3vh;
+    background-color: white;
+}
+
+.frase__spotfluxo{
+    margin-left: 5px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(transparent, black), url(./assets/Foto_Fluxo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 93vh;
+    /*filter: brightness(30%);*/
+    
+}
+
+.entrarNoSpotFluxo{
+    height: 85vh;
+    width: 60vh;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.entrarNoSpotFluxo h1{
+    margin: 6vh 0 4vh 0;
+
+
+
+}
+
+.botao__continuar{
+    color: white;
+    display: inline-block;
+    height: 20px;
+    width: 13vw;
+    padding: 11px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.entrarNoSpotFluxo ul{
+    list-style-type: none;
+}
+
+.login{
+    margin-top: 30px;
+}
+
+.input-login{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
