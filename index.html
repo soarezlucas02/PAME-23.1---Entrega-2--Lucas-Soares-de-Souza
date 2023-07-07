@@ -33,8 +33,11 @@
                 <label for="usuario" class="texto-usuario">Email ou nome de usuario</label>
                 <input type="username" id="username" class="input-login" required placeholder="E-mail ou nome de usuário">
 
-                <label for="senha" class="texto-usuario">Senha</label>
-                <input type="password" id="senha" class="input-login" required placeholder="Senha">
+                <label for="senha" class="texto-usuario texto-senha">Senha</label>
+                <div class="senha_container">
+                    <input type="password" id="senha" class=" input-senha" required placeholder="Senha ">
+                    <div onclick="showHide()" id="eye"></div>
+                </div>
 
 
                 <div class="lembrar_de_mim">
