@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotfluxo</title>
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -15,7 +17,7 @@
     </script>
     <header>
         <div class="logo__spotfluxo">
-            <img class="imagem_spotfluxo" src="./assets/test-Icon.png" alt="">
+            <img class="imagem_spotfluxo" src="./assets/Spotify-Icon.png" alt="">
             <p class="frase__spotfluxo">Spotfluxo</p>
         </div>
     </header>
@@ -25,25 +27,35 @@
             <h1>Entrar no Spotfluxo</h1>
 
             <ul class="opcoes__continuar">
-                <li><a class="botao__continuar" target="_blank" href="https://www.google.com/">Continuar com o Google</a></li>
-                <li><a class="botao__continuar" target="_blank" href="https://www.facebook.com/">Continuar com o Facebook</a></li>
-                <li><a class="botao__continuar" target="_blank" href="https://www.apple.com/br/">Continuar com a Apple</a></li>
-                <li><a class="botao__continuar" href="">Continuar com um número de telefone</a></li>
+                <li><a class="botao__continuar" target="_blank" href="https://www.google.com/"><img class="continuar__logo" src="./assets/Google-Icon.png" alt="logo google">Continuar com o Google</a></li>
+                <li><a class="botao__continuar" target="_blank" href="https://www.facebook.com/"><img class="continuar__logo" src="./assets/Facebook-Icon.png" alt="facebook logo"> Continuar com o Facebook</a></li>
+                <li><a class="botao__continuar" target="_blank" href="https://www.apple.com/br/"><img class="continuar__logo apple" src="./assets/./Apple-Icon.png" alt="apple logo"> Continuar com a Apple</a></li>
+                <li><a class="botao__continuar" href=""><p class="continuar__numero">Continuar com um número de telefone</p></a></li>
             </ul>
 
             <div class="login">
-                <label for="usuario">Email ou nome de usuario</label>
+                <label for="usuario" class="texto-usuario">Email ou nome de usuario</label>
                 <input type="username" id="username" class="input-login" required placeholder="E-mail ou nome de usuário">
 
-                <label for="senha">Senha</label>
+                <label for="senha" class="texto-usuario">Senha</label>
                 <input type="password" id="senha" class="input-login" required placeholder="Senha">
 
 
-                <label><input type="checkbox" class="checkbox" checked>Lembrar de mim</label>
+                <div class="lembrar_de_mim">
+                    <section class="checkbox-modificado">
+                        <input type="checkbox" id="checkbox" checked>
+                        <label for="checkbox" class="checkbox-label"></label>
+                    </section>
+                    <label for="checkbox" class="checkbox-frase">Lembrar de mim</label>
+                </div>
             
                 <button onclick="aviso()" class="entrar">Entrar</button>
 
+                
+
             </div>
+
+            <a class="esqueceu-senha inscreva-se" href="https://fluxoconsultoria.poli.ufrj.br/">Esqueceu sua senha?</a>
 
             <div class="inscrever">
                 <p class="naoTemConta">Não tem uma conta?</p>
