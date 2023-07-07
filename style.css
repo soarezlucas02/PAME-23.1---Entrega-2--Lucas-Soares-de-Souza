@@ -106,7 +106,6 @@ main::after {
   display: flex;
   height: 30px;
   width: 230px;
-  padding: 0;
   margin: 5px;
   border: 2px solid gray;
   border-radius: 40px;
@@ -114,6 +113,15 @@ main::after {
   font-size: 1.6vh;
   align-items: center;
   white-space: nowrap;
+}
+
+.botao__continuar:hover{
+    background-color: var(--cor-do-spotify);
+    transition: 400ms;
+
+    color: black;
+    font-weight: bold;
+    font-size: 1.7vh;
 }
 
 .continuar__logo {
@@ -151,7 +159,6 @@ main::after {
 
 .texto-usuario {
   font-size: 12px;
-  margin-left: px;
 }
 
 
@@ -216,6 +223,13 @@ main::after {
   border-radius: 20px;
   cursor: pointer;
   font-family: var(--fonte-principal);
+}
+
+.entrar:hover{
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transition: 400ms;
 }
 
 .naoTemConta {

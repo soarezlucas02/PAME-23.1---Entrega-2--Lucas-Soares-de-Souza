@@ -10,14 +10,10 @@
 
 </head>
 <body>
-    <script>
-        function aviso(){
-            alert("Login Efetuado!")
-        }
-    </script>
+    
     <header>
         <div class="logo__spotfluxo">
-            <img class="imagem_spotfluxo" src="./assets/Spotify-Icon.png" alt="">
+            <img class="imagem_spotfluxo" src="./assets/test-Icon.png" alt="">
             <p class="frase__spotfluxo">Spotfluxo</p>
         </div>
     </header>
@@ -33,7 +29,7 @@
                 <li><a class="botao__continuar" href=""><p class="continuar__numero">Continuar com um número de telefone</p></a></li>
             </ul>
 
-            <div class="login">
+            <form id="login" class="login">
                 <label for="usuario" class="texto-usuario">Email ou nome de usuario</label>
                 <input type="username" id="username" class="input-login" required placeholder="E-mail ou nome de usuário">
 
@@ -46,14 +42,14 @@
                         <input type="checkbox" id="checkbox" checked>
                         <label for="checkbox" class="checkbox-label"></label>
                     </section>
-                    <label for="checkbox" class="checkbox-frase">Lembrar de mim</label>
+                    <label id="lembrar" for="checkbox" class="checkbox-frase">Lembrar de mim</label>
                 </div>
             
-                <button onclick="aviso()" class="entrar">Entrar</button>
+                <button class="entrar" type="submit">Entrar</button>
 
                 
 
-            </div>
+            </form>
 
             <a class="esqueceu-senha inscreva-se" href="https://fluxoconsultoria.poli.ufrj.br/">Esqueceu sua senha?</a>
 
@@ -68,6 +64,6 @@
     <footer>
 
     </footer>
-    
+    <script src="./script.js"></script>
 </body>
 </html>
